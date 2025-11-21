@@ -779,6 +779,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5525988308390850294, guid: ab27394291dc7f8419a615e5e7774d6a, type: 3}
   m_PrefabInstance: {fileID: 830474352}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &885804044 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2861007273390880728, guid: 863ef2640e142944a85d30dd2878bac2, type: 3}
+  m_PrefabInstance: {fileID: 2683400999674836750}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &990625153
 GameObject:
   m_ObjectHideFlags: 0
@@ -1188,7 +1193,7 @@ GameObject:
   - component: {fileID: 1972873212}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1534,6 +1539,71 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &2683400999674836750
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2861007273390880728, guid: 863ef2640e142944a85d30dd2878bac2, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: dffa3d2657255924ea53c826e3fb4c6b, type: 3}
+    - target: {fileID: 2861007273390880728, guid: 863ef2640e142944a85d30dd2878bac2, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3593654479645850911, guid: 863ef2640e142944a85d30dd2878bac2, type: 3}
+      propertyPath: m_Name
+      value: CoinCollectSound
+      objectReference: {fileID: 0}
+    - target: {fileID: 6912312162516912189, guid: 863ef2640e142944a85d30dd2878bac2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 6912312162516912189, guid: 863ef2640e142944a85d30dd2878bac2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6912312162516912189, guid: 863ef2640e142944a85d30dd2878bac2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6912312162516912189, guid: 863ef2640e142944a85d30dd2878bac2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6912312162516912189, guid: 863ef2640e142944a85d30dd2878bac2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6912312162516912189, guid: 863ef2640e142944a85d30dd2878bac2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6912312162516912189, guid: 863ef2640e142944a85d30dd2878bac2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6912312162516912189, guid: 863ef2640e142944a85d30dd2878bac2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6912312162516912189, guid: 863ef2640e142944a85d30dd2878bac2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6912312162516912189, guid: 863ef2640e142944a85d30dd2878bac2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 863ef2640e142944a85d30dd2878bac2, type: 3}
 --- !u!1001 &3533738724557416289
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1657,18 +1727,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4387858527025144989, guid: 653815b2f96b8be4e953b8e5d00fde00, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4387858527025144989, guid: 653815b2f96b8be4e953b8e5d00fde00, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4387858527025144989, guid: 653815b2f96b8be4e953b8e5d00fde00, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4387858527025144989, guid: 653815b2f96b8be4e953b8e5d00fde00, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.5
       objectReference: {fileID: 0}
@@ -1708,6 +1766,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5224950805544016933, guid: 653815b2f96b8be4e953b8e5d00fde00, type: 3}
+      propertyPath: onTriggerEnter.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5224950805544016933, guid: 653815b2f96b8be4e953b8e5d00fde00, type: 3}
+      propertyPath: onTriggerEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5224950805544016933, guid: 653815b2f96b8be4e953b8e5d00fde00, type: 3}
+      propertyPath: onTriggerEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 885804044}
+    - target: {fileID: 5224950805544016933, guid: 653815b2f96b8be4e953b8e5d00fde00, type: 3}
+      propertyPath: onTriggerEnter.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5224950805544016933, guid: 653815b2f96b8be4e953b8e5d00fde00, type: 3}
+      propertyPath: onTriggerEnter.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 5224950805544016933, guid: 653815b2f96b8be4e953b8e5d00fde00, type: 3}
+      propertyPath: onTriggerEnter.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5224950805544016933, guid: 653815b2f96b8be4e953b8e5d00fde00, type: 3}
+      propertyPath: onTriggerEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8095108336177413067, guid: 653815b2f96b8be4e953b8e5d00fde00, type: 3}
       propertyPath: m_Name
       value: Coin
@@ -1727,3 +1813,4 @@ SceneRoots:
   - {fileID: 990625154}
   - {fileID: 1972873210}
   - {fileID: 3961719382451507501}
+  - {fileID: 2683400999674836750}
