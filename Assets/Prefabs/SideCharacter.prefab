@@ -876,4 +876,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectPrefabType: {fileID: 8126612172538840387, guid: 5a99b63f394eea945b94268405ca5d17, type: 3}
-  spawnPosition: {x: -0.5, y: 1.5, z: 0}
+  spawnPosition: {x: 8.5, y: 4.5, z: 0}
