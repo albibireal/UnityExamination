@@ -10,9 +10,10 @@ public class Dialogue : MonoBehaviour
     [SerializeField] List<string> dialogue;
 
     [SerializeField] private UnityEvent onStartDialogue;
+    [SerializeField] private UnityEvent onSecondToLastDialogue;
     [SerializeField] private UnityEvent onEndDialogue;
 
-    private int currentIndex = 0;
+    private int currentIndex = -1;
 
 
     public void NextDialogue()
@@ -27,6 +28,7 @@ public class Dialogue : MonoBehaviour
         
         // Move to the next item in the list of dialogue-lines
         currentIndex++;
+        Debug.Log(currentIndex + "    " + dialogue.Count);
         // If we're not at the end of the list yet: update text in text-box
         if (currentIndex < dialogue.Count)
         {
@@ -36,10 +38,16 @@ public class Dialogue : MonoBehaviour
         // If we are at the end of the list: run the onEndDialogue-event, reset the index (so that the dialogue can be restarted) and remove this dialog from the next-button
         else
         {
+            Debug.Log("End invoked");
             textBox.text = "";
             onEndDialogue?.Invoke();
             currentIndex = -1;
             nextButton?.onClick.RemoveListener(NextDialogue);
+        }
+        
+        if (currentIndex == dialogue.Count - 1)
+        {
+            onSecondToLastDialogue?.Invoke();
         }
     }
 }
