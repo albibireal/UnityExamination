@@ -739,7 +739,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
-  animator: {fileID: 0}
+  animator: {fileID: 1972873212}
 --- !u!70 &1972873206
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
