@@ -2002,6 +2002,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1293002025618971234, guid: 4380f8accf508ad4f8585517a03d2482, type: 3}
+      propertyPath: spawnPosition.x
+      value: -8.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 1293002025618971234, guid: 4380f8accf508ad4f8585517a03d2482, type: 3}
+      propertyPath: spawnPosition.y
+      value: 6.23
+      objectReference: {fileID: 0}
     - target: {fileID: 5560314380614950061, guid: 4380f8accf508ad4f8585517a03d2482, type: 3}
       propertyPath: m_Name
       value: Coin

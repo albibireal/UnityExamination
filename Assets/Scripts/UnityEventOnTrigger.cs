@@ -12,15 +12,12 @@ public class UnityEventOnTrigger : MonoBehaviour
     
     public UnityEvent onTriggerEnter, onTriggerExit;
 
-    
-
     private void Awake()
     {
         if ((GetComponent<Collider>() == null) && (GetComponent<Collider2D>() == null))
         {
             Debug.Log($"{gameObject} is missing a collider");
         }
-        
     }
 
     private void OnTriggerEnter2D(Collider2D other)

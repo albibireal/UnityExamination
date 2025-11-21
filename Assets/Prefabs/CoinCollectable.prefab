@@ -10,11 +10,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4387858527025144989, guid: 653815b2f96b8be4e953b8e5d00fde00, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4387858527025144989, guid: 653815b2f96b8be4e953b8e5d00fde00, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4387858527025144989, guid: 653815b2f96b8be4e953b8e5d00fde00, type: 3}
       propertyPath: m_LocalPosition.z
@@ -106,7 +106,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8095108336177413067, guid: 653815b2f96b8be4e953b8e5d00fde00, type: 3}
       propertyPath: m_Name
-      value: Coin Variant
+      value: CoinCollectable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -159,3 +159,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectPrefabType: {fileID: 6961377178087281059, guid: 598cc2fd33f943c4cb5381717b4e8c1d, type: 3}
+  spawnPosition: {x: 0, y: 0, z: 0}

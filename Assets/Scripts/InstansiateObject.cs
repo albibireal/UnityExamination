@@ -5,10 +5,12 @@ using UnityEngine.Events;
 public class InstansiateObject : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public GameObject objectPrefabType;
+    [SerializeField] private GameObject objectPrefabType;
+
+    [SerializeField] private Vector3 spawnPosition;
 
     public void Instansiate()
     {
-        Instantiate(objectPrefabType);
+        Instantiate(objectPrefabType, spawnPosition, Quaternion.identity);
     }
 }
