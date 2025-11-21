@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3979845287209793747, guid: ab27394291dc7f8419a615e5e7774d6a, type: 3}
       propertyPath: m_Name
-      value: GroundMiddle (6) Variant
+      value: GroundLeftEdge
       objectReference: {fileID: 0}
     - target: {fileID: 5138283156813926676, guid: ab27394291dc7f8419a615e5e7774d6a, type: 3}
       propertyPath: m_Sprite
@@ -18,11 +18,11 @@ PrefabInstance:
       objectReference: {fileID: 1544483589, guid: c934267f8cd2a834e93195ec9e21e0e0, type: 3}
     - target: {fileID: 5525988308390850294, guid: ab27394291dc7f8419a615e5e7774d6a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5525988308390850294, guid: ab27394291dc7f8419a615e5e7774d6a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5525988308390850294, guid: ab27394291dc7f8419a615e5e7774d6a, type: 3}
       propertyPath: m_LocalPosition.z
